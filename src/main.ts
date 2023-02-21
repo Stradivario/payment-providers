@@ -1,9 +1,9 @@
 import { Bootstrap } from '@rxdi/core';
 
-import { WidgetComponent } from './app/widget.component';
+import { AppModule } from './app/app.module';
 
 window.addEventListener('load', () => {
-  Bootstrap(WidgetComponent, {
+  Bootstrap(AppModule, {
     init: false,
   }).subscribe(
     () => console.log('App Started!'),

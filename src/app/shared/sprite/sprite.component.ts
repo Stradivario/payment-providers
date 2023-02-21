@@ -570,8 +570,6 @@ import { Component, html, LitElement, property, query } from '@rxdi/lit-html';
           </g>
         </svg>
       </template>
-
-      &nbsp;
     `;
   },
 })

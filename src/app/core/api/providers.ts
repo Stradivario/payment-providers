@@ -83,3 +83,5 @@ export const paymentProviders: Record<keyof typeof PaymentProviders, { title: st
     title: 'Voucher',
   },
 };
+
+export const PaymentProvidersEntries = Object.entries(paymentProviders);

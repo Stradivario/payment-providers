@@ -5,7 +5,7 @@
   "scripts": {
     "start": "npx parcel ./src/index.html",
     "build": "npx parcel build ./src/index.html",
-    "build:widget": "npx parcel build ./src/app/widget.component.ts --out-dir=release --out-file=payment-widget-winbet",
+    "build:widget": "npx parcel build ./src/main.ts --out-dir=release --out-file=payment-widget-winbet",
     "lint": "TIMING=1 npx eslint ./src --ext .ts",
     "lint-fix": "TIMING=1 npx eslint ./src --fix --ext .ts",
     "deploy": "npx firebase deploy",
@@ -17,9 +17,9 @@
   "dependencies": {
     "@rhtml/component": "0.0.118",
     "@rhtml/modifiers": "0.0.118",
-    "@rxdi/core": "^0.7.164",
-    "@rxdi/credit-card-form": "^0.7.164",
-    "@rxdi/lit-html": "^0.7.164",
+    "@rxdi/core": "^0.7.165",
+    "@rxdi/credit-card-form": "^0.7.165",
+    "@rxdi/lit-html": "^0.7.165",
     "rxjs": "^6.5.3"
   },
   "browserslist": [
@@ -27,7 +27,7 @@
   ],
   "devDependencies": {
     "@babel/core": "^7.10.2",
-    "@rxdi/schematics": "^0.7.164",
+    "@rxdi/schematics": "^0.7.165",
     "@types/node": "^18.7.23",
     "@types/toastr": "^2.1.40",
     "@typescript-eslint/eslint-plugin": "^5.52.0",
