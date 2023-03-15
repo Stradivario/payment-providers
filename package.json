@@ -15,27 +15,27 @@
   "author": "Kristiyan Tachev",
   "license": "MIT",
   "dependencies": {
-    "@rhtml/component": "0.0.118",
-    "@rhtml/modifiers": "0.0.118",
-    "@rxdi/core": "^0.7.165",
-    "@rxdi/credit-card-form": "^0.7.165",
-    "@rxdi/lit-html": "^0.7.165",
-    "rxjs": "^6.5.3"
+    "@rhtml/component": "0.0.124",
+    "@rhtml/modifiers": "0.0.124",
+    "@rxdi/core": "^0.7.168",
+    "@rxdi/credit-card-form": "^0.7.168",
+    "@rxdi/lit-html": "^0.7.168",
+    "rxjs": "^7.8.0"
   },
   "browserslist": [
     "last 1 chrome versions"
   ],
   "devDependencies": {
     "@babel/core": "^7.10.2",
-    "@rxdi/schematics": "^0.7.165",
+    "@rxdi/schematics": "^0.7.168",
     "@types/node": "^18.7.23",
     "@types/toastr": "^2.1.40",
-    "@typescript-eslint/eslint-plugin": "^5.52.0",
-    "@typescript-eslint/parser": "^5.52.0",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
     "babel-plugin-module-resolver": "^5.0.0",
     "cssnano": "^4.1.10",
-    "eslint": "^8.34.0",
-    "eslint-config-prettier": "^8.6.0",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.7.0",
     "eslint-plugin-lit": "^1.8.2",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-simple-import-sort": "^10.0.0",
